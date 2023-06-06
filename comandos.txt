@@ -1,0 +1,34 @@
+  460  git init
+  461  git branch -M main
+  462  git remote add origin https://github.com/karenjbs/20230605-KarenBogota.git
+  463  touch "comandos.txt" "main.js" "index.html"
+  464  git status
+  465  git add .
+  466  git commit -m "commit 01 de KarenBogota"
+  467  git push origin main
+  468  git branch feature
+  469  git checkout feature
+  470  mkdir "Hardware" "Software" "SeguridadInformatica"
+  471  cd "Hardware"
+  472  touch "resumen.txt"
+  473  cd .
+  474  cd ..
+  475  cd "Software"
+  476  touch "resumen.txt"
+  477  cd ..
+  478  cd "SeguridadInformatica"
+  479  touch "resumen.txt"
+  480  cd ..
+  481  git status
+  482  git add .
+  483  git commit -m "commit 02 de KarenBogota"
+  484  git push origin feature
+  485  git branch main
+  486  git branch
+  487  git branch main
+  488  git branch -m main
+  489  git checkout main
+  490  pwd
+  491  mv /c/Users/GUILLERMO/Desktop/20230605-KarenBogota/"main.js" /c/Users/GUILLERMO/Desktop/20230605-KarenBogota/"resumenHardware.txt
+  492  mv /c/Users/GUILLERMO/Desktop/20230605-KarenBogota/"main.js" /c/Users/GUILLERMO/Desktop/20230605-KarenBogota/"resumenHardware.txt"
+  493  history
